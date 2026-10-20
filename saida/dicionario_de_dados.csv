@@ -1,0 +1,22 @@
+variável,descrição,fonte,unidade,tipo
+cod_ibge,Código IBGE do município (chave de integração),IBGE,-,int64
+municipio,Nome oficial do município,IBGE,-,object
+mesorregiao,"Mesorregião (Oeste, Central, Agreste, Leste Potiguar)",IBGE,-,object
+regiao_intermediaria,"Região intermediária (Natal, Mossoró, Caicó, Pau dos Ferros)",IBGE,-,object
+ano,Ano de referência (2020 a 2023),-,ano,int64
+rep_icms,Cota-parte do ICMS recebida no ano,SEFAZ/RN,R$ nominais,float64
+rep_ipva,Cota-parte do IPVA recebida no ano,SEFAZ/RN,R$ nominais,float64
+rep_ipi,Cota-parte do IPI-Exportação recebida no ano,SEFAZ/RN,R$ nominais,float64
+rep_royalties,Royalties do petróleo repassados no ano,SEFAZ/RN,R$ nominais,float64
+rep_total,Soma dos 4 repasses,Derivada,R$ nominais,float64
+populacao,População residente — Censo 2022 (fixa para todos os anos),IBGE (SIDRA 4709),pessoas,int64
+pib_mil_reais,PIB a preços correntes,IBGE (SIDRA 5938),R$ mil nominais,float64
+fator_ipca,Fator que converte R$ do ano para R$ de 2023 (média anual do IPCA),IBGE (SIDRA 1737),razão,float64
+cad_pessoas,Pessoas inscritas no CadÚnico — dezembro,MDS,pessoas,int64
+cad_baixa_renda,Pessoas no CadÚnico com renda até ½ salário mínimo per capita — dezembro,MDS,pessoas,int64
+rep_total_real,Repasse total corrigido pelo IPCA,Derivada,R$ de 2023,float64
+pib_real_mil,PIB corrigido pelo IPCA,Derivada,R$ mil de 2023,float64
+rep_per_capita,Repasse total real por habitante,Derivada,R$ de 2023/hab,float64
+pib_per_capita,PIB real por habitante,Derivada,R$ de 2023/hab,float64
+pct_baixa_renda,Pessoas de baixa renda no CadÚnico em % da população,Derivada,%,float64
+porte,Faixa de população (Censo 2022),Derivada,categoria,category
