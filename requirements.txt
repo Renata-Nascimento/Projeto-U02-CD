@@ -4,3 +4,9 @@ import os, re, sys, glob, unicodedata
 import numpy as np
 import pandas as pd
 import requests
+
+os, sys e glob: Usados para manipulação do sistema operacional, caminhos e busca de arquivos no disco.
+re: Permite o uso de expressões regulares para buscar padrões em textos (como identificar anos em nomes de arquivos).
+unicodedata: Auxilia na remoção de acentos e caracteres especiais ao padronizar nomes de municípios.
+numpy (np) e pandas (pd): Bibliotecas principais para análise de dados e manipulação de tabelas (DataFrames).
+requests: Usada para fazer requisições HTTP e baixar os dados diretamente das APIs do IBGE, do MDS e do GitHub.
