@@ -1,0 +1,6 @@
+# Lista de bibliotecas
+
+import os, re, sys, glob, unicodedata
+import numpy as np
+import pandas as pd
+import requests
