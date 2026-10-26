@@ -1,0 +1,8 @@
+variável,descrição,fonte,unidade,tipo_dado
+cod_ibge,Código IBGE do município (chave de integração),IBGE,-,int64
+municipio,Nome oficial do município,IBGE,-,object
+ano,Ano do repasse (2004 a 2025),-,ano,int64
+tipo,"Tipo de repasse: ICMS (25%), IPVA (50%), IPI-Exportação (25%), ROYALTIES (25%)",SEFAZ/RN,categoria,object
+valor,"Valor repassado ao município no ano (vazio em 2011 para IPVA, IPI e ROYALTIES)",SEFAZ/RN,R$ nominais,float64
+formato_fonte,Arquivo de origem: pdf (2004–2018) ou xls (2019–2025),SEFAZ/RN,categoria,object
+observacao,Aviso sobre o dado (preenchido só nos casos sem publicação),Derivada,texto,object
