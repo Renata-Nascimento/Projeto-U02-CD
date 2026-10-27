@@ -1,0 +1,12 @@
+variável,descrição,fonte,unidade,tipo_dado
+cod_ibge,Código IBGE do município (chave de integração),IBGE,-,int64
+municipio,Nome oficial do município,IBGE,-,object
+ano,Ano de referência (2004 a 2025),-,ano,int64
+populacao,População residente no ano,"IBGE (SIDRA 6579, 793, 1378, 4709)",pessoas,Int64
+fonte_populacao,"Origem da população: estimativa, contagem 2007, censo 2010, censo 2022 ou imputada (2023)",Derivada,categoria,object
+pib_mil_reais,"PIB a preços correntes (vazio em 2024 e 2025, ainda não publicados)",IBGE (SIDRA 5938),R$ mil nominais,float64
+ipca_indice_medio,Média anual do número-índice do IPCA,IBGE (SIDRA 1737),índice,float64
+fator_ipca_2025,Multiplica um valor do ano para convertê-lo em reais de 2025,Derivada,razão,float64
+cad_familias,Famílias inscritas no CadÚnico em dezembro,MDS (VIS DATA),famílias,float64
+cad_pessoas,Pessoas inscritas no CadÚnico em dezembro,MDS (VIS DATA),pessoas,float64
+cad_baixa_renda,"Pessoas no CadÚnico com renda até ½ salário mínimo per capita, em dezembro",MDS (VIS DATA),pessoas,float64
